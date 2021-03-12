@@ -1,19 +1,19 @@
-Данный модуль интеграции с kaznachey разработан для OpenCart-ocStore 0.2.2
+This integration module with KAZNACHEY is designed for OpenCart-Ocstore
  
-Перед установкой модуля необходимо зарегистрироваться на сайте kaznachey.ua (раздел "ПОДКЛЮЧЕНИЕ"). 
-После подписания договора будут выданы: 
--идентификатор мерчанта; 
--секретный ключ мерчанта; 
-Переданные данные будут использованы при настройки модуля
+Before installing the module, you need to register on the site kaznachey.ua ("Connection" section).
+After signing the contract will be issued:
+- Merchanti share;
+-Sectual key of the Merchant;
+Transferred data will be used when setting up the module
 
-Порядок установки модуля:
-1. Скопируйте содержимое папки в корневой каталог вашего сайта;
-2. Откройте панель управления вашего сайта;
-3. Выберите меню "Дополнения/Оплата" (/admin/index.php?route=extension/payment);
-4. Найдите строчку с методом оплаты kaznachey и нажмите "Установить" (Install);
-5. После установки нажмите "Изменить" (Edit);
-6. Настройте способ оплаты, заполнив все необходимые поля:
- - значения в полях "Идентификатор мерчанта", "Секретный ключ мерчанта" должны соответствовать данным выданным менеджером;
- - при необходимости укажите "Статус заказа после оплаты";
- - активируйте способ оплаты в пункте "Статус"
-7. Сохраните изменения.
+Module installation order:
+1. Copy the contents of the folder in the root directory of your site;
+2. Open the control panel of your site;
+3. Select the "Add / Payment" menu (/admin/index.php?Route=Extension/payment);
+4. Find a line with the payment method KAZNACHEY and click "Install" (Install);
+5. After installation, click "Edit";
+6. Configure payment method by filling out all the necessary fields:
+ - values вЂ‹вЂ‹in the "Merchant" identifier fields, the "Secret Key of the Merchant" must comply with this Manufactured Manager;
+ - if necessary, specify the "order status after payment";
+ - Activate payment method in "Status"
+7. Save the changes. 
